@@ -4,19 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--BOOSTRARP-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <!--CSS-->
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <!--ICONS-->
     <link rel="stylesheet" type="text/css"
         href="icons/fontawesome-free-6.4.2-web/fontawesome-free-6.4.2-web/css/all.css">
-    <!--Angular-->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
     <!--JS-->
     <script type="text/javascript" src="JS/script.js"></script>
+     <!--Angular-->
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
     <title>CV Miguel Angel Bermudez Cote</title>
 </head>
 
-<body>
+<body ng-app="">
     <div id="contenedor-principal">
         <section id="principal-jumbotron">
             <div class="jumbotron">
@@ -29,13 +31,16 @@
 
                 <p class="lead">CV realizado por Miguel Angel Bermudez Cote</p>
                 <hr class="my-2">
-                <p>En esta pagina practicare con varios estilos para todo tipo de etiquetas ya sea de texto, fuentes,
-                    colores, cuerpos de las paginas
-                    y muchas mnas estilos.<br /> Esto es un texto de ejemplo al que aplicare varios estilos.
-                </p>
-                <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
-                </p>
+                <p ng-hide="isTextHidden"><span ng-bind="firstName"></span></p>
+               
+                   <button  type="button" class="btn btn-secondary lead" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." ng-click="firstName='En esta pagina practicare con varios estilos para todo tipo de etiquetas ya sea de texto, fuentes,
+                   colores, cuerpos de las paginas
+                   y muchas mnas estilos. Esto es un texto de ejemplo al que aplicare varios estilos.'; isTextHidden = !isTextHidden;">
+                   Saber mas de mi
+                   </button>
+                   
+                   
+              
             </div>
 
         </section>

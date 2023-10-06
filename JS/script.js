@@ -1,2 +1,2 @@
 'use stric'
-alert('BIENVENIDO A MI PORTAFOLIOS :)');
+var isTextHidden = false;
