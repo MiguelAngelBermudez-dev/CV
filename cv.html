@@ -31,11 +31,9 @@
 
                 <p class="lead">CV realizado por Miguel Angel Bermudez Cote</p>
                 <hr class="my-2">
-                <p ng-hide="isTextHidden"><span ng-bind="firstName"></span></p>
+                <p ng-hide="!isTextHidden"></p>
                
-                   <button  type="button" class="btn btn-secondary " data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." ng-click="isTextHidden = !isTextHidden; firstName='En esta pagina practicare con varios estilos para todo tipo de etiquetas ya sea de texto, fuentes,
-                   colores, cuerpos de las paginas
-                   y muchas mnas estilos. Esto es un texto de ejemplo al que aplicare varios estilos.'">
+                   <button  type="button" class="btn btn-secondary " data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." ng-click="isTextHidden = !isTextHidden">
                    Saber mas de mi
                    </button>
                    
