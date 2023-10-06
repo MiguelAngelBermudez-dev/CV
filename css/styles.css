@@ -103,6 +103,7 @@ button{
     margin: 15px;
     color: #000;
     margin: 3px;
+    text-decoration: none;
 }
 
 .social {
