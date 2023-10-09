@@ -9,7 +9,7 @@
   "main": "index.js",
   "name": "cv",
   "scripts": {
-    "start": "node index.js"
+    "start": "node JS/index.js"
   },
   "version": "1.0.0"
 }
