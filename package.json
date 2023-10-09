@@ -1,15 +1,15 @@
 {
+  "author": "Miguel Angel Bermudez",
   "dependencies": {
     "express": "^4.18.2"
   },
-  "name": "cv",
-  "version": "1.0.0",
   "description": "curriculum ",
-  "main": "index.js",
   "devDependencies": {},
+  "license": "ISC",
+  "main": "index.js",
+  "name": "cv",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "Miguel Angel Bermudez",
-  "license": "ISC"
+  "version": "1.0.0"
 }
