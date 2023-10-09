@@ -2,7 +2,4 @@
 
 var isTextHidden = false;
 
-$(document).ready(function() {
-    $('#exampleModal').modal('show')
-})
 

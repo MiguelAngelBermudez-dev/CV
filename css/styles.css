@@ -91,7 +91,7 @@ button{
 .enlace2:hover,
 .enlace3:hover,
 .enlace4:hover {
-    color: #fff;
+    color: rgb(28, 40, 51,0.5);
 
 }
 
@@ -137,11 +137,21 @@ button{
     max-width: 100%;
 }
 .container1{
-    border: solid black 1px;
+    border-radius: 15px;
+   
+    background-color: rgba(241, 245, 248, 0.7); ;
 }
 .container2{
+    height: 200px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, rgb(0, 157, 255,0.7), rgb(233, 219, 233,0.7));
     
-    border: solid black 1px;
+}
+.container2 > i{
+margin: 5px;
+}
+h5{
+    padding: 10px;
 }
 h6{
   
