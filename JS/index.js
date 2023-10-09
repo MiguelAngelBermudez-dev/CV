@@ -3,7 +3,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', function (req, res) {
-  res.sendFile((__dirname, '../cv'))
+  res.sendFile((__dirname, 'cv/cv.html'))
 })
 
 
